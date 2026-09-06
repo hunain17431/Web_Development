@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    font-family: sans-serif;
+    article {
+
+        display: flex;
+        flex-direction: row; /* also try row-reverse*/
+        flex-wrap: wrap;
+
+        justify-content:flex-start;
+
+        column-gap: 1rem;
+        row-gap: 1rem;
+
+        background-color: whitesmoke;
+        padding:20px;
+
+        section {
+            flex-basis: 15%;
+            min-width: 300px;
+
+            border:1px solid darkgray;
+            border-radius: 4px;
+            padding: 10px;
+            box-shadow: 4px 4px 4px darkgray;
+            background-color: aquamarine;
+
+        }
+    }
+}
