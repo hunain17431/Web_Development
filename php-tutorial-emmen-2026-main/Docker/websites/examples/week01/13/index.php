@@ -35,7 +35,7 @@ else {
 </head>
 <body>
 <?php echo <<< END_OF_HTML
-    <h1>Welcome $name$surname </h1>
+    <h1>Welcome $name $surname </h1>
     <p>
       This is a simple website using variables to add dynamic content. You can change the values of the variables on lines
         5 and 6 to display your own name.

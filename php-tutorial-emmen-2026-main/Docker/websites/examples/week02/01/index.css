@@ -3,10 +3,11 @@ main {
 }
 
 article {
-
-        grid-template-columns: auto auto; /** creates two columns */
-        column-gap: 3rem;
-        row-gap: 3rem;
+    display: grid;
+    grid-template-columns: auto auto; /** creates two columns */
+    grid-template-rows: auto auto ;
+    column-gap: 3rem;
+    row-gap: 3rem;
 }
 
 section {
@@ -14,5 +15,4 @@ section {
     border-radius: 4px;
     padding: 10px;
     box-shadow: 4px 4px 4px darkgray;
-
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PHP Example 2</title>
-    <style>p {font-family: sans-serif}</style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <p>

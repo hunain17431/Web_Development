@@ -12,9 +12,6 @@ function calc(int $a, int $b) {
 }
 
 function verification(int $a){
-
-    $result = "";
-
     if ($a == 2026) {
             $result = "Yesss";
     } else if ($a == 2025) {
@@ -26,7 +23,6 @@ function verification(int $a){
     return $result;
 }
 
-$fecha = verification($year);
 $multi = calc(2,6);
 
 

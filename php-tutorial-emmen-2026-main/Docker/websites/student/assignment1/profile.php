@@ -53,7 +53,7 @@ if($SIBLINGS >= 1){
         <ul>
             <?php
             foreach ($FOODS as $food) {
-                if ($food == $myFavoriteFood) {
+                if ($food == $myFavoriteFood ) {
                     $classname = "favorite";
                 } else {
                     $classname = "normal";

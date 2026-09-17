@@ -2,7 +2,7 @@ main {
     font-family: sans-serif;
     article {
         display: grid;
-        grid-template-columns: 25vw auto ; /** creates two columns */
+        grid-template-columns: 25px auto ; /** creates two columns */
         column-gap: 3rem;
         row-gap: 3rem;
 
