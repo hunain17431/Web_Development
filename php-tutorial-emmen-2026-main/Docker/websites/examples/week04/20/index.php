@@ -1,5 +1,6 @@
 <?php
   $information = file_get_contents('./information.txt');
+  $x = str_replace("a","Z",$information);
 ?>
 <!doctype html>
 <html lang="en">
@@ -16,6 +17,6 @@
     </style>
 </head>
 <body>
-  <?= $information ?>
+  <?= $x ?>
 </body>
 </html>

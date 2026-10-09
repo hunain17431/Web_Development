@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Outfit";
+    src: url("fonts/Outfit-Regular.ttf");
+    font-weight: 400;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+}
+
+img {
+    height: 200px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.separator {
+    border: 1px solid lightgrey;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+}
+
+h2 {
+    color: brown;
+}
+
+p {
+    font-size : 16px;
+}
+
+.prep {
+    background-color: lightsteelblue;
+    padding: 10px 20px 30px 30px ;
+    border-radius: 20px;
+}
+
+.prep li {
+   padding-left: 20px;
+}
+
+.prep h3 {
+    color: darkblue;
+}
+
+.prep ul {
+    color: darkblue;
+}
+
+.ingre li::marker {
+    color: darkblue;
+}
+
+.nutri li::marker {
+    color: darkblue;  
+}
+
+.nutri li {
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.data {
+    color: darkblue;
+    font-weight: bolder;
+}
+
+table td {
+    padding: 10px;
+}

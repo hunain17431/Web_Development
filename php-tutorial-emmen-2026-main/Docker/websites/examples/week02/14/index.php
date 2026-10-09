@@ -8,7 +8,7 @@ if ($a == $b) {
     print "a and b are the same\n";
 }
 else {
-    print "b and b  are not the same\n";
+    print "a and b  are not the same\n";
 }
 
 if ($a === $b) {
@@ -18,7 +18,7 @@ else {
     print "b and be are not the same\n";
 }
 
-$x = 10.0;
+$x = 10;
 $y = 10;
 
 if ($x == $y) {
@@ -28,7 +28,7 @@ else {
     print "x and y not are the same\n";
 }
 
-if ($a === $b) {
+if ($x === $y) {
     print "x and y are the same\n";
 }
 else {

@@ -15,7 +15,7 @@ $name = "Martin Molema";
 
 // repeat a string
 
-echo "Repeat the letter A 10 times:" . str_repeat('A', 10) . "\n";
+echo "Repeat the letter A 10 times:" . str_repeat('MARCI', 3) . "\n";
 echo "Repeat the letter ABC 10 times:" . str_repeat('ABC', 10) . "\n";
 
 

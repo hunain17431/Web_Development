@@ -77,6 +77,10 @@ $x = doSomething(1,2, false, false);
 $x = doSomething(b:1,a:2, low:false);
 $x = doSomething(1,2, low:false);
 
+$lista = ["name1" => "Hunain","name2" => "David","name3" => "Marci"];
+
+print($lista["name2"]);
+
 echoLine();
 
 ?>

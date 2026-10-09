@@ -1,0 +1,17 @@
+.bigboydavid {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+}
+
+
+.row {
+    display: flex;
+}
+
+.row div {
+    flex: 1;
+    height: 5px;
+}

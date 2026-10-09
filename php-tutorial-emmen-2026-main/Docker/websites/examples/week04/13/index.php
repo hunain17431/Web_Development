@@ -30,7 +30,7 @@ function mergeTwoStrings(string $first, string $second): string
  */
 function calcAverage(array $numbers): float
 {
-    return array_sum($numbers) / count($numbers);
+    return array_avg($numbers);
 }
 
 /**

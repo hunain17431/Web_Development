@@ -24,7 +24,7 @@ $a = "0";
 #$a = 10.3;
 
 # Try to assign zero to $b to force the test for division by zero.
-$b = 20;
+$b = 0;
 
 echo "Type of a is " . gettype($a) . "\n";
 echo "Type of b is " . gettype($b) . "\n";
