@@ -1,0 +1,57 @@
+body {
+    font-size: 18px;
+}
+
+form {
+    padding: 20px;
+}
+
+input {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+label {
+    margin: 3px;
+}
+
+#name {
+    margin-left: 75px;
+}
+
+#mail {
+    margin-left: 70px;
+    width: 300px;
+}
+
+#areacode {
+    margin-left: 30px;
+}
+
+#company {
+    margin-left: 50px;
+    width: 300px;
+}
+
+#adress{
+    width: 330px;
+}
+
+#adress2 {
+    margin-left: 135px;
+    width: 330px;
+}
+
+#city {
+    margin-left: 135px;
+}
+
+#postal {
+    margin-left: 135px;
+    width: 330px;
+}
+
+#website {
+    width: 330px;
+}
+

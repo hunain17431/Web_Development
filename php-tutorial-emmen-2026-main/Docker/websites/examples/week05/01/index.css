@@ -15,11 +15,20 @@ fieldset {
 
 input {
     padding:4px;
-    &:user-invalid {
-        border:2px solid red;
-    }
+}
+
+input:invalid {
+    border:2px solid red;
+}
+
+#field01:invalid {
+    border: 2px solid rgb(119, 0, 255);
 }
 
 input:focus {
-    border:2px solid black;
+    border: 20px solid blue;
+}
+
+#field01 {
+    background-color: black;
 }
