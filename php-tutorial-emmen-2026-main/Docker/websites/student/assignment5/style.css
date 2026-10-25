@@ -55,3 +55,22 @@ label {
     width: 330px;
 }
 
+fieldset {
+    width: 100px;
+    margin:10px;
+}
+
+.errors {
+    margin-left: 20px;
+    color: red;
+}
+
+.valid {
+    margin-left: 20px;
+    color: green;
+}
+
+h2 {
+    margin-left: 20px;
+}
+

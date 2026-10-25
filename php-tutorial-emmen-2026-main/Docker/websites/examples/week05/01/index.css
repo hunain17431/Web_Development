@@ -21,10 +21,6 @@ input:invalid {
     border:2px solid red;
 }
 
-#field01:invalid {
-    border: 2px solid rgb(119, 0, 255);
-}
-
 input:focus {
     border: 20px solid blue;
 }

@@ -8,31 +8,42 @@
 </head>
 <body>
     <h2>Webinar Subscription</h2>
-    <form>
+    <form action="process.php" method="post">
         <label for="name">Name</label>
-        <input type="text" id="name" placeholder="name">
-        <input type="text" id="surname" placeholder="surname"><br>
+        <input type="text" id="name" name="firstname" placeholder="name">
+        <input type="text" id="surname" name="secondname" placeholder="surname" required><br>
         
 
         <label for="mail">E-mail</label>
-        <input type="email" placeholder="example@gmail.com" id="mail"><br>
+        <input type="email" placeholder="example@gmail.com" name="mail" id="mail"><br>
 
         <label for="phone">Work Phone</label>
-        <input type="text" id="areacode" placeholder="areacode">
-        <input type="tel" id="phone"><br>
+        <input type="text" id="areacode" name="area" placeholder="areacode">
+        <input type="tel" id="phone" name="num" placeholder="phone number" required><br>
 
         <label for="company">Company</label>
-        <input type="text" id="company" placeholder="company"><br>
+        <input type="text" id="company" name="company" placeholder="company"><br>
 
         <label for="adress">Company Adress</label>
-        <input type="text" id="adress"><br>
-        <input type="text" id="adress2"><br>
-        <input type="text" id="city">
-        <input type="text" id="state"><br>
-        <input type="text" id="postal"><br>
+        <input type="text" id="adress" name="adrone" placeholder="adress 1"><br>
+        <input type="text" id="adress2" name="adrtwo" placeholder="adress2"><br>
+        <input type="text" id="city" name="city" placeholder="city">
+        <input type="text" id="state" name="state" placeholder="state"><br>
+        <input type="text" id="postal" name="postal" placeholder="postal"><br>
         
         <label for="website">Company Website</label>
-        <input type="url" id="website"><br>
+        <input type="url" id="website" name="web" placeholder="website"><br>
+
+        <label for="checkbox" >Checkbox</label>
+        <label><input type="checkbox" name="checkboxes" checked id="checkbox">Yes</label>
+        
+
+        <fieldset>
+            <legend>Radio button</legend>
+            <label><input type="radio" id="rock" name="options" value="R">Rock</label><br>
+            <label><input type="radio" id="field11b" name="options" value="J" checked>Jazz</label><br>
+            <label><input type="radio" id="field11c" name="options" value="C">Classical</label><br>
+        </fieldset>
 
         <input type="submit" value="submit">
     </form>
