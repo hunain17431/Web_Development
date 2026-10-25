@@ -47,7 +47,6 @@ $error = [];
 </head>
 <body>
     <h2>Webinar Subscription</h2>
-
         <?php if(count($error) > 0) { ?>
             <section class="errors">
                 <h3>Solve these errors : </h3>
