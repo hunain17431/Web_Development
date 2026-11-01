@@ -32,20 +32,20 @@ $requiredItems = [
 ];
 
 foreach ($requiredItems as $item) {
-    if (($item, $_POST)) {
+    if (($item)) {
         $errors[$item] = "required field";
     }
 }
 
-if (strlen($_POST['field01']) < 1 || strlen($_POST['field01']) > 10) $errors['field01'][] = "Must be at least 1 character or at most 10";
-if (!filter_input(INPUT_POST, 'field02', FILTER_VALIDATE_EMAIL)) $errors['field02'][] = "Must be a valid email address";
+if (strlen($_POST['field01']) < 1 || strlen($_POST['field01']) > 10) $errors[] = "Must be at least 1 character or at most 10";
+if (!filter_input(INPUT_POST, 'field02', FILTER_VALIDATE_EMAIL)) $errors[] = "Must be a valid email address";
 // more validations here........
 
 $errorHTML = "";
 if (count($errors) > 0) {
     $errorItemsHTML = "";
     foreach ($errors as $fieldname => $errorsForField) {
-        foreach ($errorsForField as $error) {
+        foreach ($errors as $error) {
             $errorItemsHTML .= <<< ERRORS
       <p>$fieldname: $error</p>
 ERRORS;
