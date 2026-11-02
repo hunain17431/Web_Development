@@ -1,0 +1,428 @@
+/* Nordic Knit */
+
+.nordic-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.nordic-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px;
+}
+
+
+.nordic-banner {
+    border-bottom: 1px solid var(--cream-dark);
+}
+
+.nordic-trail {
+    display: flex;
+    gap: 8px;
+    padding: 20px 0;
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.nordic-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.nordic-image {
+    max-width: 580px;
+    margin-top: 40px;
+}
+
+.nordic-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nordic-image-main {
+    aspect-ratio: 1;
+    overflow: hidden;
+    border-radius: 24px;
+}
+
+.nordic-image-preview-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.nordic-image-preview {
+    max-width: 80px;
+    aspect-ratio: 1;
+    overflow: hidden;
+    border-radius: 16px;
+    border: 2px solid transparent;
+}
+
+.nordic-image-preview.active {
+    border: 2px solid var(--navy-dark);
+}
+
+.nordic-image-preview:hover {
+    border: 2px dotted var(--navy-dark);
+}
+
+
+.nordic-info h1 {
+    font-family: var(--font-display);
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.nordic-desc {
+    color: var(--gray);
+}
+
+.nordic-tags {
+    display: flex;
+    gap: 4px;
+    margin-top: 40px;
+    padding: 0;
+    list-style: none;
+    color: var(--navy);
+}
+
+.nordic-tags li {
+    padding: 4px 12px;
+    background: var(--yellow);
+    border-radius: 9999px;
+    font-family: var(--font-display);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nordic-size {
+    color: var(--gray);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.nordic-size-btns {
+    margin-top: 10px;
+}
+
+.nordic-size-btn {
+    padding: 10px 20px;
+    border: 2px solid var(--lightgray);
+    border-radius: 8px;
+    background: var(--cream);
+    font-family: var(--font-display);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--navy);
+    transition: 0.1s;
+}
+
+.nordic-size-btn:hover {
+    border: 2px solid var(--navy);
+}
+
+.nordic-material {
+    margin: 30px 0;
+    padding: 15px;
+    background-color: var(--cream-dark);
+    border-radius: 12px;
+}
+
+.nordic-material span {
+    color: var(--gray);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.nordic-material p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: var(--gray);
+}
+
+
+.nordic-inquiry-btns {
+    display: flex;
+    gap: 12px;
+}
+
+.nordic-inquiry-btn,
+.nordic-inquiry-btn-outline {
+    flex: 1;
+    padding: 20px 24px;
+    border-radius: 12px;
+    font-family: var(--font-display);
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.1s;
+}
+
+.nordic-inquiry-btn {
+    border: 1px solid var(--white);
+    background: var(--navy);
+    color: var(--white);
+    text-decoration: none;
+    text-align: center;
+}
+
+.nordic-inquiry-btn:hover {
+    background: var(--navy-dark);
+}
+
+.nordic-inquiry-btn-outline {
+    border: 2px solid var(--navy);
+    background-color: var(--cream);
+    color: var(--navy);
+    display: flex;
+    justify-content: center;
+}
+
+.nordic-inquiry-btn-outline:hover {
+    background-color: var(--navy-dark);
+    color: var(--white);
+}
+
+.nordic-disclaimer {
+    font-size: 12px;
+    text-align: center;
+    color: var(--gray);
+}
+
+
+.nordic-custom-order {
+    background-color: var(--teal);
+}
+
+.nordic-custom-order .nordic-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.nordic-custom-order h3 {
+    font-family: var(--font-display);
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: -10px;
+}
+
+.nordic-custom-order p {
+    color: var(--white);
+    font-size: 14px;
+}
+
+.nordic-custom-inquiry-btn {
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 700;
+    transition: 0.1s;
+    border: 1px solid transparent;
+    background: var(--yellow);
+    color: var(--navy);
+}
+
+.nordic-custom-inquiry-btn:hover {
+    background-color: var(--yellow-hover);
+}
+
+.nordic-ymal {
+    background-color: var(--cream-dark);
+    padding: 48px 0 64px;
+}
+
+.nordic-ymal-title {
+    margin: 0 0 32px;
+    font-family: var(--font-display);
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.nordic-product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.nordic-product-card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 20px;
+    border: 2px solid var(--yellow);
+    border-radius: 25px;
+    background: var(--white);
+    transition: .3s;
+}
+
+.nordic-product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 5px var(--gray);
+}
+
+.nordic-product-image {
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background: var(--cream-dark);
+    border-radius: 16px;
+}
+
+.nordic-product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .3s;
+}
+
+.nordic-product-image img:hover {
+    transform: scale(1.1);
+}
+
+.nordic-product-body {
+    flex: 1;
+    padding: 0 10px;
+    border-radius: 16px;
+}
+
+.nordic-card-tags {
+    color: var(--gray);
+    list-style: none;
+    display: flex;
+    gap: 4px;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.nordic-card-tags li {
+    padding: 4px 12px;
+    background: var(--cream);
+    border-radius: 9999px;
+    font-family: var(--font-display);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nordic-product-body h2 {
+    margin-bottom: 8px;
+    font-family: var(--font-display);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nordic-product-body p {
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.nordic-product-action {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 20px;
+    padding: 0 8px;
+}
+
+.nordic-btn-outline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    border: 2px solid var(--lightgray);
+    border-radius: 12px;
+    font-family: var(--font-display);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--navy);
+    transition: .1s;
+}
+
+.nordic-btn-yellow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    font-family: var(--font-display);
+    font-size: 14px;
+    font-weight: 700;
+    background: var(--yellow);
+    color: var(--navy);
+    transition: .1s;
+    text-decoration: none;
+}
+
+.nordic-btn-outline:hover {
+    border: 2px solid var(--navy);
+}
+
+.nordic-btn-yellow:hover {
+    background: var(--yellow-hover);
+}
+
+.nordic-trail .nordic-link:hover {
+    color: var(--navy);
+}
+
+.nordic-trail-active {
+    color: var(--navy);
+}
+
+@media (max-width: 900px) {
+    .nordic-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .nordic-image {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .nordic-tags {
+        margin-top: 0;
+    }
+
+    .nordic-product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .nordic-container {
+        padding: 0 15px;
+    }
+
+    .nordic-info h1 {
+        font-size: 28px;
+    }
+
+    .nordic-inquiry-btns {
+        flex-direction: column;
+    }
+
+    .nordic-custom-order .nordic-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .nordic-product-grid {
+        grid-template-columns: 1fr;
+    }
+}
