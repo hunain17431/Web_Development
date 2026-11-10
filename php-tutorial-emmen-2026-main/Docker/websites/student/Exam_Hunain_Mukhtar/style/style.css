@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+}
+
+header {
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10px;
+    background-color: #01203c;
+    color: white;
+    padding-right: 20px;
+}
+
+.nav-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    margin-left: 20px;
+}
+
+.nav-links {
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap : 20px;
+        font-size: 16px;
+        font-weight: 700;
+        li{
+            list-style: none;
+        }
+    }
+}
+
+.nav-button{
+    button{
+         background-color: #34929d;
+         border: none;
+         padding: 20px;
+         margin-right: 20px;
+         border-radius: 5px;
+        a{
+            text-decoration: none;
+            color: white;
+
+            &:hover {
+                cursor: pointer;
+                color: white;
+            }
+        }
+    }
+}
+
+.hero-section {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    height: 310px;
+    overflow: hidden;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-left: 40px;
+
+        h2{
+            font-size: 36px;
+            color: white;
+        }
+
+        p{
+            font-size: 14px;
+            color: white;
+            max-width: 400px;
+            margin-top: 0px;
+        }
+
+        button{
+            background-color: #34929d;
+            border: none;
+            padding: 15px 10px 15px 10px;
+            width: 160px;
+            border-radius: 5px;
+            a{
+                text-decoration: none;
+                color: white;
+
+                &:hover {
+                    cursor: pointer;
+                    color: white;
+                }
+            }
+        }
+        
+    }
+}
+
+
+.cards-section{
+    margin-top: 20px;
+}
+
+.cards-row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 10px;
+    
+}
+
+.card{
+    flex: 1;
+    border-right: 1px solid black;
+
+    div:last-child{
+        border: none;
+    }
+
+    div{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.news-section{
+    display: flex;
+    flex-direction: row;
+    margin: 40px 40px 20px 20px;
+}
+
+.news-left {
+    flex: 0.5;
+    
+    h4{
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    button{
+         background-color: #34929d;
+         border: none;
+         padding: 10px 30px 10px 10px;
+         margin-right: 20px;
+         border-radius: 5px;
+        a{
+            text-decoration: none;
+            text-align: start;
+            color: white;
+
+            &:hover {
+                cursor: pointer;
+                color: white;
+            }
+        }
+    }
+}
+
+.news-right {
+    flex: 3.5;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.news-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.news-card-image {
+    margin-right: 15px;
+}
+
+.news-card-content {
+    display: flex;
+    flex-direction: column;
+    h4{
+        margin: 0;
+        font-weight: 400;
+    }
+    p{
+        font-weight: 600;
+    }
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color:#01203c;
+}
+
+.footer-left {
+    flex: 2;
+    padding-left: 20px;
+    padding-right: 20px;
+    img {
+        padding-top: 20px;
+    }
+
+    p{
+        color: white;
+    }
+}
+
+.footer-middle {
+    flex: 6;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+
+    div{
+        display: flex;
+        flex-direction: column;
+
+        h4{
+            color: white;
+            text-decoration: underline;
+            text-decoration-color: #34929d;
+        }
+
+        p{
+            color: white;
+        }
+    }
+}
+
+.footer-right {
+    flex: 2;
+
+    p{
+        margin: 2px;
+        color: white;
+    }
+
+    h4{
+        color: white;
+    }
+
+    button{
+         background-color: #34929d;
+         border: none;
+         padding: 10px 10px 10px 10px;
+         border-radius: 5px;
+        a{
+            text-decoration: none;
+            text-align: start;
+            color: white;
+
+            &:hover {
+                cursor: pointer;
+                color: white;
+            }
+        }
+    }
+
+}
