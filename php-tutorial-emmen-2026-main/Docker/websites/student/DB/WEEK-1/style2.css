@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+
+.formulario {
+    background-color: orange;
+    padding: 50px;
+}
+
+form {
+    div{
+        margin-bottom: 20px;
+    }
+}

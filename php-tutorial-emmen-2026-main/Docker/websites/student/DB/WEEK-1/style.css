@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.whole-form {
+    background-color: orange;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+
+    div {
+        label {
+            font-size: 24px;
+            font-weight: 700;
+            text-decoration: underline;
+        }
+    }
+}
+
+button {
+    width: 200px;
+}
